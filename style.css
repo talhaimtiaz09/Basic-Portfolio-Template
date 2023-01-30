@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+.ul{
+    display: flex;
+    list-style-type:none ;
+}
+.li{
+    margin: 10px 30px;
+    font-weight: 200;
+    font-size: 20px;
+}
+
+.li:hover{
+    color: #F26464;
+}
+
+.navBar{
+    display: flex;
+    justify-content: space-between;
+
+
+}
+.logo{
+    font-weight: 600;
+    font-size: 36px;
+    color: #F26464;
+    margin-left: 10px;
+}
+
+.vector-bg{
+ margin: auto;
+ display: block;
+}
+
+.profile-pic{
+    position: absolute;
+    top:400px;
+    left: 800px;
+    width: 300px;
+    border-radius: 50%;
+    border:3px solid #F26464;
+}
+.container{
+    width: 70%;
+    padding-top: 200px;
+    margin: auto;
+}
+
+.project-container{
+    display: flex;
+    justify-content: space-between;
+
+}
+.cards{
+    background-color: #F26464;
+}
+.projects-img{
+    width: 400px;
+    display: block;
+}
+
+.cards > a{
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 30px;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+a:hover{
+   opacity: 40%;
+
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 300px;
+}
+
+h1{
+    color: rgb(29, 27, 27);
+}
+
+p{
+    width: 80%;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+footer{
+    margin-top:400px;
+    background-color: rgb(35, 30, 30);
+    color: white;
+    padding: 30px;
+    text-align: center;
+}
